@@ -1,0 +1,51 @@
+package main
+
+import (
+    // 直接套件
+    _ "github.com/alexmullins/zip"
+    _ "github.com/beego/beego/v2/core/config"
+    _ "github.com/go-ldap/ldap/v3"
+    _ "github.com/google/uuid"
+    _ "github.com/jlaffaye/ftp"
+    _ "github.com/microsoft/go-mssqldb"
+    _ "github.com/saintfish/chardet"
+    _ "github.com/smartystreets/goconvey/convey"
+    _ "golang.org/x/sync/errgroup"
+    _ "golang.org/x/text/encoding"
+    _ "gorm.io/driver/sqlserver"
+    _ "gorm.io/gorm"
+
+    // 間接套件
+    _ "github.com/Azure/go-ntlmssp"
+    _ "github.com/beorn7/perks/quantile"
+    _ "github.com/cespare/xxhash/v2"
+    _ "github.com/go-asn1-ber/asn1-ber"
+    _ "github.com/golang-sql/civil"
+    _ "github.com/golang-sql/sqlexp"
+    _ "github.com/golang/protobuf/proto"
+    _ "github.com/gopherjs/gopherjs/js"
+    _ "github.com/hashicorp/errwrap"
+    _ "github.com/hashicorp/go-multierror"
+    _ "github.com/hashicorp/golang-lru/v2"
+    _ "github.com/jinzhu/inflection"
+    _ "github.com/jinzhu/now"
+    _ "github.com/jtolds/gls"
+    _ "github.com/kr/text"
+    _ "github.com/matttproud/golang_protobuf_extensions/pbutil"
+    _ "github.com/mitchellh/mapstructure"
+    _ "github.com/pkg/errors"
+    _ "github.com/prometheus/client_golang/prometheus"
+    _ "github.com/prometheus/client_model/go"
+    _ "github.com/prometheus/common/model"
+    _ "github.com/prometheus/procfs"
+    _ "github.com/shiena/ansicolor"
+    _ "github.com/shopspring/decimal"
+    _ "github.com/smarty/assertions"
+    _ "golang.org/x/crypto/bcrypt"
+    _ "golang.org/x/net/http2"
+    _ "golang.org/x/sys/windows"
+    _ "google.golang.org/protobuf/proto"
+    _ "gopkg.in/yaml.v3"
+)
+
+func main() {}
